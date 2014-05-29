@@ -32,7 +32,6 @@ MEXLINKOPTS2=-L$(MATLABROOT)/bin/$(MATLABARCH)
 all: $(SERVER) $(CLIENT)
 
 debug: DEBUG += -g
-debug: DEBUG += -g
 debug: $(SERVER) $(CLIENT)
 
 # Cap'n'proto interface
